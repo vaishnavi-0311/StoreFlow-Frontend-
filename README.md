@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 StoreFlow – Store Management System (Frontend)
 
-## Getting Started
+StoreFlow is a modern and responsive **Store Management System** frontend developed using **Next.js** and **Tailwind CSS**. The application provides an intuitive interface for managing stores, products, inventory, sales, customers, and reports. It communicates with a RESTful backend API for secure and efficient data management.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 Secure User Authentication
+- 📊 Dashboard with Business Overview
+- 🏪 Store Management
+- 📦 Product Management
+- 🗂️ Category Management
+- 📋 Inventory Management
+- 💰 Sales Management
+- 👥 Customer Management
+- 📈 Reports & Analytics
+- 🔔 Notification Support
+- 📱 Responsive Design
+- 🎨 Modern UI with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- REST API
+
+### Database
+- MongoDB
+
+---
+
+## 📂 Project Structure
+
+```
+frontend/
+│
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── services/
+│   ├── hooks/
+│   ├── utils/
+│   ├── styles/
+│   └── assets/
+│
+├── package.json
+├── next.config.mjs
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/vaishnavi-0311/store-management-frontend.git
+```
+
+### Navigate to the Project
+
+```bash
+cd store-management-frontend
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env.local` file in the project root.
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+```
+
+### Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will start on:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔗 Backend Connection
 
-To learn more about Next.js, take a look at the following resources:
+The frontend communicates with the backend using REST APIs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Local API URL:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+http://localhost:5000/api
+```
 
-## Deploy on Vercel
+For production, replace it with your deployed backend URL.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Application Pages
+
+- 🏠 Home
+- 🔑 Login
+- 📊 Dashboard
+- 🏪 Stores
+- 📦 Products
+- 🗂️ Categories
+- 📋 Inventory
+- 💰 Sales
+- 👥 Customers
+- 📈 Reports
+- ⚙️ Settings
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+Example:
+
+- Login Page
+- Dashboard
+- Store Management
+- Product Management
+- Inventory Management
+- Sales Management
+- Reports
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+- Building modern web applications using Next.js
+- Creating responsive user interfaces with Tailwind CSS
+- API integration using Axios
+- Authentication using JWT
+- Component-based architecture
+- React Hooks
+- Protected Routes
+- Dashboard UI Design
+- Frontend project organization
+- Responsive Design Principles
+
+---
+
+## 🚀 Future Enhancements
+
+- AI-powered Sales Insights
+- AI Chat Assistant
+- Email Notifications
+- Dark Mode
+- Advanced Analytics Dashboard
+
+---
+
+## 👩‍💻 Author
+
+**Vaishnavi**
+
+GitHub: https://github.com/vaishnavi-0311
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please give it a ⭐ on GitHub.
