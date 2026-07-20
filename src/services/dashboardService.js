@@ -1,12 +1,9 @@
-const API_URL = "http://localhost:5000/api/dashboard";
+import API from "./api";
 
 export const getDashboardStats = async () => {
   const token = localStorage.getItem("token");
 
-  const response = await fetch(
-    `${API_URL}/stats`,
-    {
-      method: "GET",
+  const response = await API.get("/dashboard/stats", {
       headers: {
         Authorization: `Bearer ${token}`,
       },
