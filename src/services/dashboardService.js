@@ -10,7 +10,7 @@ export const getDashboardStats = async () => {
     }
   );
 
-  return response.json();
+  return response.data;
 };
 
 // import API from "./api";
